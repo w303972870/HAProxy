@@ -9,7 +9,7 @@ docker pull w303972870/haproxy
 
 #### 启动命令示例
 ```
-docker run -dit  --net host -p 16001:16001 -p 7777:7777 -p 10001:10001 -v /data/haproxy/:/data/ docker.io/w303972870/haproxy
+docker run -dit  --net host -p 16001:16001 -p 7777:7777 -v /data/haproxy/:/data/ docker.io/w303972870/haproxy
 ```
 
 #### 我的/data/haproxy/目录结构
