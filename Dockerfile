@@ -1,7 +1,7 @@
 FROM alpine:latest
 MAINTAINER Eric.wang wdc-zhy@163.com
 
-RUN mkdir -p /data/conf/ /data/logs/ 
+RUN mkdir -p /data/conf/ /data/logs/  /data/haproxy/ 
 
 ADD README.md /root/
 
